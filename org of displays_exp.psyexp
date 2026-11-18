@@ -1,0 +1,541 @@
+﻿<?xml version="1.0" ?>
+<PsychoPy2experiment encoding="utf-8" version="2026.2.4">
+  <Settings>
+    <Param val="use prefs" valType="str" updates="None" name="Audio lib"/>
+    <Param val="" valType="str" updates="None" name="Completed URL"/>
+    <Param val="auto" valType="str" updates="None" name="Data file delimiter"/>
+    <Param val="'data/' + expInfo['participant'] + '_' + expName + '_' + expInfo['date']" valType="code" updates="None" name="Data filename"/>
+    <Param val="True" valType="bool" updates="None" name="Enable Escape"/>
+    <Param val="Thank you for your patience." valType="str" updates="None" name="End Message"/>
+    <Param val="{'participant': 'f&quot;{randint(0, 999999):06.0f}&quot;', 'session': '001', 'group': ''}" valType="code" updates="None" name="Experiment info"/>
+    <Param val="True" valType="bool" updates="None" name="Force stereo"/>
+    <Param val="True" valType="bool" updates="None" name="Full-screen window"/>
+    <Param val="" valType="str" updates="None" name="HTML path"/>
+    <Param val="" valType="str" updates="None" name="Incomplete URL"/>
+    <Param val="testMonitor" valType="str" updates="None" name="Monitor"/>
+    <Param val="[]" valType="list" updates="None" name="Resources"/>
+    <Param val="False" valType="bool" updates="None" name="Save csv file"/>
+    <Param val="False" valType="bool" updates="None" name="Save excel file"/>
+    <Param val="False" valType="bool" updates="None" name="Save hdf5 file"/>
+    <Param val="True" valType="bool" updates="None" name="Save log file"/>
+    <Param val="True" valType="bool" updates="None" name="Save psydat file"/>
+    <Param val="True" valType="bool" updates="None" name="Save wide csv file"/>
+    <Param val="1" valType="num" updates="None" name="Screen"/>
+    <Param val="True" valType="bool" updates="None" name="Show info dlg"/>
+    <Param val="False" valType="bool" updates="None" name="Show mouse"/>
+    <Param val="height" valType="str" updates="None" name="Units"/>
+    <Param val="" valType="str" updates="None" name="Use version"/>
+    <Param val="(1024, 768)" valType="list" updates="None" name="Window size (pixels)"/>
+    <Param val="none" valType="str" updates="None" name="backgroundFit"/>
+    <Param val="" valType="str" updates="None" name="backgroundImg"/>
+    <Param val="avg" valType="str" updates="None" name="blendMode"/>
+    <Param val="float" valType="str" updates="None" name="clockFormat"/>
+    <Param val="{'thisRow.t': 'priority.CRITICAL', 'expName': 'priority.LOW'}" valType="dict" updates="None" name="colPriority"/>
+    <Param val="$[0,0,0]" valType="color" updates="None" name="color"/>
+    <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
+    <Param val="warning" valType="code" updates="None" name="consoleLoggingLevel"/>
+    <Param val="org of displays_exp" valType="str" updates="None" name="expName"/>
+    <Param val="" valType="str" updates="None" name="expVersion"/>
+    <Param val="on Sync" valType="str" updates="None" name="exportHTML"/>
+    <Param val="None" valType="str" updates="None" name="eyetracker"/>
+    <Param val="" valType="code" updates="None" name="frameRate"/>
+    <Param val="Attempting to measure frame rate of screen, please wait..." valType="str" updates="None" name="frameRateMsg"/>
+    <Param val="PsychToolbox" valType="str" updates="None" name="keyboardBackend"/>
+    <Param val="info" valType="code" updates="None" name="logging level"/>
+    <Param val="True" valType="bool" updates="None" name="measureFrameRate"/>
+    <Param val="['MIDDLE_BUTTON']" valType="list" updates="None" name="mgBlink"/>
+    <Param val="CONTINUOUS" valType="str" updates="None" name="mgMove"/>
+    <Param val="0.5" valType="num" updates="None" name="mgSaccade"/>
+    <Param val="1" valType="code" updates="None" name="runMode"/>
+    <Param val="False" valType="bool" updates="None" name="rush"/>
+    <Param val="time" valType="str" updates="None" name="sortColumns"/>
+    <Param val="pyglet" valType="str" updates="None" name="winBackend"/>
+  </Settings>
+  <Routines>
+    <Routine name="instructions">
+      <RoutineSettingsComponent name="instructions" plugin="None">
+        <Param val="none" valType="str" updates="None" name="backgroundFit"/>
+        <Param val="" valType="str" updates="None" name="backgroundImg"/>
+        <Param val="$[0,0,0]" valType="color" updates="None" name="color"/>
+        <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
+        <Param val="" valType="str" updates="constant" name="desc"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="False" valType="code" updates="None" name="forceNonSlip"/>
+        <Param val="instructions" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="constant" name="skipIf"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="False" valType="bool" updates="None" name="useWindowParams"/>
+      </RoutineSettingsComponent>
+      <TextComponent name="instructions_text" plugin="None">
+        <Param val="white" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="False" valType="code" updates="constant" name="draggable"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="Arial" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.05" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="instructions_text" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="You will first complete 5 practice trials.&amp;#10;&amp;#10;As soon as the display disappears, press the appropriate response key.&amp;#10;&amp;#10;Press the F key with your right hand when you see F.&amp;#10;Press the T key with your left hand when you see T.&amp;#10;&amp;#10;&amp;#10;Please respond as quickly and accurately as possible.&amp;#10;&amp;#10;Press SPACE to begin." valType="str" updates="constant" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+        <Param val="" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+      <KeyboardComponent name="instruction_key" plugin="None">
+        <Param val="'space'" valType="list" updates="constant" name="allowedKeys"/>
+        <Param val="" valType="str" updates="constant" name="correctAns"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="True" valType="bool" updates="constant" name="discard previous"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="True" valType="bool" updates="constant" name="forceEndRoutine"/>
+        <Param val="instruction_key" valType="code" updates="None" name="name"/>
+        <Param val="press" valType="str" updates="constant" name="registerOn"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="last key" valType="str" updates="constant" name="store"/>
+        <Param val="False" valType="bool" updates="constant" name="storeCorrect"/>
+        <Param val="True" valType="bool" updates="constant" name="syncScreenRefresh"/>
+      </KeyboardComponent>
+    </Routine>
+    <Routine name="practice_end">
+      <RoutineSettingsComponent name="practice_end" plugin="None">
+        <Param val="none" valType="str" updates="None" name="backgroundFit"/>
+        <Param val="" valType="str" updates="None" name="backgroundImg"/>
+        <Param val="$[0,0,0]" valType="color" updates="None" name="color"/>
+        <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
+        <Param val="" valType="str" updates="constant" name="desc"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="False" valType="code" updates="None" name="forceNonSlip"/>
+        <Param val="practice_end" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="constant" name="skipIf"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="False" valType="bool" updates="None" name="useWindowParams"/>
+      </RoutineSettingsComponent>
+      <TextComponent name="practicetext" plugin="None">
+        <Param val="white" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="False" valType="code" updates="constant" name="draggable"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="Arial" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.05" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="practicetext" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="Practice trials are now complete.&amp;#10;&amp;#10;The main experiment will begin now.&amp;#10;&amp;#10;Please remember to respond as quickly and accurately as possible.&amp;#10;&amp;#10;Press SPACE when you are ready to begin." valType="str" updates="constant" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+        <Param val="" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+      <KeyboardComponent name="practicekey_resp" plugin="None">
+        <Param val="'space'" valType="list" updates="constant" name="allowedKeys"/>
+        <Param val="" valType="str" updates="constant" name="correctAns"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="True" valType="bool" updates="constant" name="discard previous"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="True" valType="bool" updates="constant" name="forceEndRoutine"/>
+        <Param val="practicekey_resp" valType="code" updates="None" name="name"/>
+        <Param val="press" valType="str" updates="constant" name="registerOn"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="last key" valType="str" updates="constant" name="store"/>
+        <Param val="False" valType="bool" updates="constant" name="storeCorrect"/>
+        <Param val="True" valType="bool" updates="constant" name="syncScreenRefresh"/>
+      </KeyboardComponent>
+    </Routine>
+    <Routine name="trial">
+      <RoutineSettingsComponent name="trial" plugin="None">
+        <Param val="none" valType="str" updates="None" name="backgroundFit"/>
+        <Param val="" valType="str" updates="None" name="backgroundImg"/>
+        <Param val="$[0,0,0]" valType="color" updates="None" name="color"/>
+        <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
+        <Param val="" valType="str" updates="constant" name="desc"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="False" valType="code" updates="None" name="forceNonSlip"/>
+        <Param val="trial" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="constant" name="skipIf"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="False" valType="bool" updates="None" name="useWindowParams"/>
+      </RoutineSettingsComponent>
+      <TextComponent name="fixation" plugin="None">
+        <Param val="white" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="False" valType="code" updates="constant" name="draggable"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="Arial" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.05" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="fixation" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="2.0" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="+" valType="str" updates="constant" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+        <Param val="" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+      <CodeComponent name="stimulusCode" plugin="None">
+        <Param val="" valType="extendedCode" updates="constant" name="Before Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Before JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin JS Experiment"/>
+        <Param val="/* Syntax Error: Fix Python code */" valType="extendedCode" updates="constant" name="Begin JS Routine"/>
+        <Param val="from math import sin, cos, radians&amp;#10;&amp;#10;&amp;#10;target_value = str(target).strip().upper()&amp;#10;config_value = str(config).strip().lower()&amp;#10;orientation_value = int(orientation)&amp;#10;reflection_value = str(reflection).strip().lower() == 'true'&amp;#10;&amp;#10;&amp;#10;def make_hybrid_segments(x, y, size=0.14):&amp;#10;&amp;#10;    segments = [&amp;#10;        ((x, y + size/2), (x - size/2, y + size/2)),&amp;#10;        ((x, y + size/2), (x, y - size/2)),&amp;#10;        ((x, y), (x + size/2, y))&amp;#10;    ]&amp;#10;&amp;#10;    return segments&amp;#10;&amp;#10;&amp;#10;if config_value == 'inline':&amp;#10;&amp;#10;    hybrid_positions = [&amp;#10;        (-0.42, 0.35),&amp;#10;        (-0.21, 0.20),&amp;#10;        (0.00, 0.05),&amp;#10;        (0.21, -0.10),&amp;#10;        (0.42, 0.05)&amp;#10;    ]&amp;#10;&amp;#10;    target_x = 0.42&amp;#10;    target_y = -0.35&amp;#10;&amp;#10;else:&amp;#10;&amp;#10;    hybrid_positions = [&amp;#10;        (-0.42, 0.35),&amp;#10;        (-0.21, 0.20),&amp;#10;        (0.00, 0.05),&amp;#10;        (0.21, -0.10),&amp;#10;        (0.42, -0.25)&amp;#10;    ]&amp;#10;&amp;#10;    target_x = 0.42&amp;#10;    target_y = 0.05&amp;#10;&amp;#10;&amp;#10;all_segments = []&amp;#10;&amp;#10;&amp;#10;for x, y in hybrid_positions:&amp;#10;&amp;#10;    all_segments.extend(&amp;#10;        make_hybrid_segments(x, y)&amp;#10;    )&amp;#10;&amp;#10;&amp;#10;if target_value == 'F':&amp;#10;&amp;#10;    if config_value == 'inline':&amp;#10;&amp;#10;        target_segments = [&amp;#10;            ((target_x, target_y + 0.07),&amp;#10;             (target_x + 0.09, target_y + 0.07)),&amp;#10;&amp;#10;            ((target_x, target_y + 0.07),&amp;#10;             (target_x, target_y - 0.07)),&amp;#10;&amp;#10;            ((target_x, target_y),&amp;#10;             (target_x + 0.09, target_y))&amp;#10;        ]&amp;#10;&amp;#10;    else:&amp;#10;&amp;#10;        target_segments = [&amp;#10;            ((target_x, target_y + 0.08),&amp;#10;             (target_x + 0.12, target_y + 0.08)),&amp;#10;&amp;#10;            ((target_x, target_y + 0.08),&amp;#10;             (target_x, target_y - 0.08)),&amp;#10;&amp;#10;            ((target_x, target_y),&amp;#10;             (target_x + 0.10, target_y))&amp;#10;        ]&amp;#10;&amp;#10;else:&amp;#10;&amp;#10;    if config_value == 'inline':&amp;#10;&amp;#10;        target_segments = [&amp;#10;            ((target_x - 0.09, target_y + 0.07),&amp;#10;             (target_x + 0.09, target_y + 0.07)),&amp;#10;&amp;#10;            ((target_x, target_y + 0.07),&amp;#10;             (target_x, target_y - 0.07))&amp;#10;        ]&amp;#10;&amp;#10;    else:&amp;#10;&amp;#10;        target_segments = [&amp;#10;            ((target_x - 0.09, target_y + 0.07),&amp;#10;             (target_x + 0.09, target_y + 0.07)),&amp;#10;&amp;#10;            ((target_x, target_y + 0.07),&amp;#10;             (target_x, target_y - 0.07))&amp;#10;        ]&amp;#10;&amp;#10;&amp;#10;all_segments.extend(target_segments)&amp;#10;&amp;#10;&amp;#10;all_points = []&amp;#10;&amp;#10;&amp;#10;for start, end in all_segments:&amp;#10;&amp;#10;    all_points.append(start)&amp;#10;    all_points.append(end)&amp;#10;&amp;#10;&amp;#10;min_x = min(point[0] for point in all_points)&amp;#10;max_x = max(point[0] for point in all_points)&amp;#10;min_y = min(point[1] for point in all_points)&amp;#10;max_y = max(point[1] for point in all_points)&amp;#10;&amp;#10;&amp;#10;center_x = (min_x + max_x) / 2&amp;#10;center_y = (min_y + max_y) / 2&amp;#10;&amp;#10;&amp;#10;scale = 0.90&amp;#10;&amp;#10;&amp;#10;def transform_point(x, y):&amp;#10;&amp;#10;    x = x - center_x&amp;#10;    y = y - center_y&amp;#10;&amp;#10;    if reflection_value:&amp;#10;        x = -x&amp;#10;&amp;#10;    x = x * scale&amp;#10;    y = y * scale&amp;#10;&amp;#10;    angle = radians(orientation_value)&amp;#10;&amp;#10;    new_x = x * cos(angle) - y * sin(angle)&amp;#10;    new_y = x * sin(angle) + y * cos(angle)&amp;#10;&amp;#10;    return new_x, new_y&amp;#10;&amp;#10;&amp;#10;stimulus_lines = []&amp;#10;&amp;#10;&amp;#10;for start, end in all_segments:&amp;#10;&amp;#10;    new_start = transform_point(&amp;#10;        start[0],&amp;#10;        start[1]&amp;#10;    )&amp;#10;&amp;#10;    new_end = transform_point(&amp;#10;        end[0],&amp;#10;        end[1]&amp;#10;    )&amp;#10;&amp;#10;    line = visual.Line(&amp;#10;        win=win,&amp;#10;        start=new_start,&amp;#10;        end=new_end,&amp;#10;        lineColor='black',&amp;#10;        lineWidth=3&amp;#10;    )&amp;#10;&amp;#10;    stimulus_lines.append(line)" valType="extendedCode" updates="constant" name="Begin Routine"/>
+        <Param val="Py" valType="str" updates="None" name="Code Type"/>
+        <Param val="if t &gt;= 2.0 and t &lt; 2.05:&amp;#10;    for line in stimulus_lines:&amp;#10;        line.draw()&amp;#10; " valType="extendedCode" updates="constant" name="Each Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Each JS Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Routine"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Routine"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="stimulusCode" valType="code" updates="None" name="name"/>
+      </CodeComponent>
+      <TextComponent name="trialTimer" plugin="None">
+        <Param val="white" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="False" valType="code" updates="constant" name="draggable"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="Arial" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.05" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="trialTimer" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="" valType="str" updates="constant" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+        <Param val="" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+      <KeyboardComponent name="response" plugin="None">
+        <Param val="'f','t'" valType="list" updates="set every repeat" name="allowedKeys"/>
+        <Param val="$corrAns" valType="str" updates="constant" name="correctAns"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="True" valType="bool" updates="constant" name="discard previous"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="True" valType="bool" updates="constant" name="forceEndRoutine"/>
+        <Param val="response" valType="code" updates="None" name="name"/>
+        <Param val="press" valType="str" updates="constant" name="registerOn"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="2.05" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="first key" valType="str" updates="constant" name="store"/>
+        <Param val="True" valType="bool" updates="constant" name="storeCorrect"/>
+        <Param val="True" valType="bool" updates="constant" name="syncScreenRefresh"/>
+      </KeyboardComponent>
+    </Routine>
+    <Routine name="feedback">
+      <RoutineSettingsComponent name="feedback" plugin="None">
+        <Param val="none" valType="str" updates="None" name="backgroundFit"/>
+        <Param val="" valType="str" updates="None" name="backgroundImg"/>
+        <Param val="$[0,0,0]" valType="color" updates="None" name="color"/>
+        <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
+        <Param val="" valType="str" updates="constant" name="desc"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="False" valType="code" updates="None" name="forceNonSlip"/>
+        <Param val="feedback" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="constant" name="skipIf"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="False" valType="bool" updates="None" name="useWindowParams"/>
+      </RoutineSettingsComponent>
+      <CodeComponent name="feedbackCode" plugin="None">
+        <Param val="" valType="extendedCode" updates="constant" name="Before Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Before JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin JS Routine"/>
+        <Param val="if response.corr:&amp;#10;    feedbackMessage = 'correct'&amp;#10;else:&amp;#10;    feedbackMessage = 'wrong'" valType="extendedCode" updates="constant" name="Begin Routine"/>
+        <Param val="Py" valType="str" updates="None" name="Code Type"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Each Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Each JS Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Routine"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Routine"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="feedbackCode" valType="code" updates="None" name="name"/>
+      </CodeComponent>
+      <TextComponent name="feedbackText" plugin="None">
+        <Param val="white" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="False" valType="code" updates="constant" name="draggable"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="Arial" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.05" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="feedbackText" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="1" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="$feedbackMessage" valType="str" updates="set every repeat" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+        <Param val="" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+    </Routine>
+    <Routine name="break_1">
+      <RoutineSettingsComponent name="break_1" plugin="None">
+        <Param val="none" valType="str" updates="None" name="backgroundFit"/>
+        <Param val="" valType="str" updates="None" name="backgroundImg"/>
+        <Param val="$[0,0,0]" valType="color" updates="None" name="color"/>
+        <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
+        <Param val="" valType="str" updates="constant" name="desc"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="False" valType="code" updates="None" name="forceNonSlip"/>
+        <Param val="break_1" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="constant" name="skipIf"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="False" valType="bool" updates="None" name="useWindowParams"/>
+      </RoutineSettingsComponent>
+      <TextComponent name="break_text" plugin="None">
+        <Param val="white" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="False" valType="code" updates="constant" name="draggable"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="Arial" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.05" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="break_text" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="You have completed this block.&amp;#10;&amp;#10;You can take a break now.&amp;#10;&amp;#10;When you are ready to continue, press SPACE." valType="str" updates="constant" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+        <Param val="" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+      <KeyboardComponent name="break_resp" plugin="None">
+        <Param val="'space'" valType="list" updates="constant" name="allowedKeys"/>
+        <Param val="" valType="str" updates="constant" name="correctAns"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="True" valType="bool" updates="constant" name="discard previous"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="True" valType="bool" updates="constant" name="forceEndRoutine"/>
+        <Param val="break_resp" valType="code" updates="None" name="name"/>
+        <Param val="press" valType="str" updates="constant" name="registerOn"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="last key" valType="str" updates="constant" name="store"/>
+        <Param val="False" valType="bool" updates="constant" name="storeCorrect"/>
+        <Param val="True" valType="bool" updates="constant" name="syncScreenRefresh"/>
+      </KeyboardComponent>
+    </Routine>
+    <Routine name="end">
+      <RoutineSettingsComponent name="end" plugin="None">
+        <Param val="none" valType="str" updates="None" name="backgroundFit"/>
+        <Param val="" valType="str" updates="None" name="backgroundImg"/>
+        <Param val="$[0,0,0]" valType="color" updates="None" name="color"/>
+        <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
+        <Param val="" valType="str" updates="constant" name="desc"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="False" valType="code" updates="None" name="forceNonSlip"/>
+        <Param val="end" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="constant" name="skipIf"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="False" valType="bool" updates="None" name="useWindowParams"/>
+      </RoutineSettingsComponent>
+      <TextComponent name="end_text" plugin="None">
+        <Param val="white" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="False" valType="code" updates="constant" name="draggable"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="Arial" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.05" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="end_text" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="5" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="The experiment is now complete.&amp;#10;&amp;#10;Thank you for participating!" valType="str" updates="constant" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+        <Param val="" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+    </Routine>
+  </Routines>
+  <Flow>
+    <Routine name="instructions"/>
+    <LoopInitiator loopType="TrialHandler" name="practice_trials">
+      <Param name="Selected rows" updates="None" val="" valType="str"/>
+      <Param name="conditions" updates="None" val="[{'target': 'F', 'config': 'inline', 'orientation': 0, 'reflection': False, 'corrAns': 'f'}, {'target': 'F', 'config': 'inline', 'orientation': 90, 'reflection': False, 'corrAns': 'f'}, {'target': 'T', 'config': 'inline', 'orientation': 0, 'reflection': False, 'corrAns': 't'}, {'target': 'F', 'config': 'outline', 'orientation': 0, 'reflection': False, 'corrAns': 'f'}, {'target': 'T', 'config': 'outline', 'orientation': 0, 'reflection': False, 'corrAns': 't'}]" valType="str"/>
+      <Param name="conditionsFile" updates="None" val="practice file.xlsx" valType="file"/>
+      <Param name="endPoints" updates="None" val="[0, 1]" valType="code"/>
+      <Param name="isTrials" updates="None" val="True" valType="bool"/>
+      <Param name="loopType" updates="None" val="random" valType="str"/>
+      <Param name="nReps" updates="None" val="1" valType="code"/>
+      <Param name="name" updates="None" val="practice_trials" valType="code"/>
+      <Param name="random seed" updates="None" val="" valType="code"/>
+    </LoopInitiator>
+    <Routine name="trial"/>
+    <Routine name="feedback"/>
+    <LoopTerminator name="practice_trials"/>
+    <Routine name="practice_end"/>
+    <LoopInitiator loopType="TrialHandler" name="block1">
+      <Param name="Selected rows" updates="None" val="" valType="str"/>
+      <Param name="conditions" updates="None" val="[{'target': 'F', 'config': 'outline', 'orientation': 180, 'reflection': True, 'corrAns': 'f', 'block': 1, 'trial_in_block': 1}, {'target': 'F', 'config': 'inline', 'orientation': 0, 'reflection': True, 'corrAns': 'f', 'block': 1, 'trial_in_block': 2}, {'target': 'F', 'config': 'inline', 'orientation': 90, 'reflection': True, 'corrAns': 'f', 'block': 1, 'trial_in_block': 3}, {'target': 'F', 'config': 'outline', 'orientation': 270, 'reflection': True, 'corrAns': 'f', 'block': 1, 'trial_in_block': 4}, {'target': 'F', 'config': 'outline', 'orientation': 0, 'reflection': False, 'corrAns': 'f', 'block': 1, 'trial_in_block': 5}, {'target': 'T', 'config': 'inline', 'orientation': 0, 'reflection': False, 'corrAns': 't', 'block': 1, 'trial_in_block': 6}, {'target': 'F', 'config': 'outline', 'orientation': 0, 'reflection': True, 'corrAns': 'f', 'block': 1, 'trial_in_block': 7}, {'target': 'F', 'config': 'inline', 'orientation': 180, 'reflection': True, 'corrAns': 'f', 'block': 1, 'trial_in_block': 8}, {'target': 'F', 'config': 'outline', 'orientation': 90, 'reflection': False, 'corrAns': 'f', 'block': 1, 'trial_in_block': 9}, {'target': 'T', 'config': 'inline', 'orientation': 90, 'reflection': True, 'corrAns': 't', 'block': 1, 'trial_in_block': 10}, {'target': 'F', 'config': 'inline', 'orientation': 180, 'reflection': True, 'corrAns': 'f', 'block': 1, 'trial_in_block': 11}, {'target': 'F', 'config': 'inline', 'orientation': 270, 'reflection': False, 'corrAns': 'f', 'block': 1, 'trial_in_block': 12}, {'target': 'T', 'config': 'outline', 'orientation': 0, 'reflection': False, 'corrAns': 't', 'block': 1, 'trial_in_block': 13}, {'target': 'F', 'config': 'outline', 'orientation': 90, 'reflection': True, 'corrAns': 'f', 'block': 1, 'trial_in_block': 14}, {'target': 'T', 'config': 'inline', 'orientation': 180, 'reflection': True, 'corrAns': 't', 'block': 1, 'trial_in_block': 15}, {'target': 'F', 'config': 'outline', 'orientation': 270, 'reflection': False, 'corrAns': 'f', 'block': 1, 'trial_in_block': 16}, {'target': 'F', 'config': 'inline', 'orientation': 0, 'reflection': True, 'corrAns': 'f', 'block': 1, 'trial_in_block': 17}, {'target': 'F', 'config': 'inline', 'orientation': 180, 'reflection': False, 'corrAns': 'f', 'block': 1, 'trial_in_block': 18}, {'target': 'T', 'config': 'inline', 'orientation': 270, 'reflection': False, 'corrAns': 't', 'block': 1, 'trial_in_block': 19}, {'target': 'T', 'config': 'outline', 'orientation': 270, 'reflection': True, 'corrAns': 't', 'block': 1, 'trial_in_block': 20}, {'target': 'T', 'config': 'inline', 'orientation': 0, 'reflection': True, 'corrAns': 't', 'block': 1, 'trial_in_block': 21}, {'target': 'T', 'config': 'outline', 'orientation': 0, 'reflection': True, 'corrAns': 't', 'block': 1, 'trial_in_block': 22}, {'target': 'T', 'config': 'outline', 'orientation': 90, 'reflection': True, 'corrAns': 't', 'block': 1, 'trial_in_block': 23}, {'target': 'F', 'config': 'inline', 'orientation': 0, 'reflection': False, 'corrAns': 'f', 'block': 1, 'trial_in_block': 24}, {'target': 'F', 'config': 'inline', 'orientation': 90, 'reflection': False, 'corrAns': 'f', 'block': 1, 'trial_in_block': 25}, {'target': 'T', 'config': 'inline', 'orientation': 90, 'reflection': False, 'corrAns': 't', 'block': 1, 'trial_in_block': 26}, {'target': 'F', 'config': 'inline', 'orientation': 90, 'reflection': False, 'corrAns': 'f', 'block': 1, 'trial_in_block': 27}, {'target': 'F', 'config': 'inline', 'orientation': 270, 'reflection': True, 'corrAns': 'f', 'block': 1, 'trial_in_block': 28}, {'target': 'T', 'config': 'outline', 'orientation': 180, 'reflection': False, 'corrAns': 't', 'block': 1, 'trial_in_block': 29}, {'target': 'T', 'config': 'inline', 'orientation': 270, 'reflection': True, 'corrAns': 't', 'block': 1, 'trial_in_block': 30}, {'target': 'F', 'config': 'inline', 'orientation': 0, 'reflection': False, 'corrAns': 'f', 'block': 1, 'trial_in_block': 31}, {'target': 'F', 'config': 'inline', 'orientation': 90, 'reflection': True, 'corrAns': 'f', 'block': 1, 'trial_in_block': 32}, {'target': 'T', 'config': 'outline', 'orientation': 90, 'reflection': False, 'corrAns': 't', 'block': 1, 'trial_in_block': 33}, {'target': 'F', 'config': 'inline', 'orientation': 270, 'reflection': False, 'corrAns': 'f', 'block': 1, 'trial_in_block': 34}, {'target': 'T', 'config': 'outline', 'orientation': 270, 'reflection': False, 'corrAns': 't', 'block': 1, 'trial_in_block': 35}, {'target': 'T', 'config': 'inline', 'orientation': 180, 'reflection': False, 'corrAns': 't', 'block': 1, 'trial_in_block': 36}, {'target': 'F', 'config': 'inline', 'orientation': 180, 'reflection': False, 'corrAns': 'f', 'block': 1, 'trial_in_block': 37}, {'target': 'F', 'config': 'outline', 'orientation': 180, 'reflection': False, 'corrAns': 'f', 'block': 1, 'trial_in_block': 38}, {'target': 'T', 'config': 'outline', 'orientation': 180, 'reflection': True, 'corrAns': 't', 'block': 1, 'trial_in_block': 39}, {'target': 'F', 'config': 'inline', 'orientation': 270, 'reflection': True, 'corrAns': 'f', 'block': 1, 'trial_in_block': 40}]" valType="str"/>
+      <Param name="conditionsFile" updates="None" val="block1.xlsx" valType="file"/>
+      <Param name="endPoints" updates="None" val="[0, 1]" valType="code"/>
+      <Param name="isTrials" updates="None" val="True" valType="bool"/>
+      <Param name="loopType" updates="None" val="sequential" valType="str"/>
+      <Param name="nReps" updates="None" val="1" valType="code"/>
+      <Param name="name" updates="None" val="block1" valType="code"/>
+      <Param name="random seed" updates="None" val="" valType="code"/>
+    </LoopInitiator>
+    <Routine name="trial"/>
+    <Routine name="feedback"/>
+    <LoopTerminator name="block1"/>
+    <Routine name="break_1"/>
+    <LoopInitiator loopType="TrialHandler" name="block2">
+      <Param name="Selected rows" updates="None" val="" valType="str"/>
+      <Param name="conditions" updates="None" val="[{'target': 'T', 'config': 'inline', 'orientation': 270, 'reflection': True, 'corrAns': 't', 'block': 2, 'trial_in_block': 1}, {'target': 'F', 'config': 'outline', 'orientation': 0, 'reflection': False, 'corrAns': 'f', 'block': 2, 'trial_in_block': 2}, {'target': 'T', 'config': 'inline', 'orientation': 0, 'reflection': False, 'corrAns': 't', 'block': 2, 'trial_in_block': 3}, {'target': 'F', 'config': 'outline', 'orientation': 180, 'reflection': True, 'corrAns': 'f', 'block': 2, 'trial_in_block': 4}, {'target': 'F', 'config': 'outline', 'orientation': 90, 'reflection': True, 'corrAns': 'f', 'block': 2, 'trial_in_block': 5}, {'target': 'F', 'config': 'outline', 'orientation': 180, 'reflection': False, 'corrAns': 'f', 'block': 2, 'trial_in_block': 6}, {'target': 'F', 'config': 'outline', 'orientation': 90, 'reflection': False, 'corrAns': 'f', 'block': 2, 'trial_in_block': 7}, {'target': 'F', 'config': 'outline', 'orientation': 0, 'reflection': False, 'corrAns': 'f', 'block': 2, 'trial_in_block': 8}, {'target': 'F', 'config': 'inline', 'orientation': 180, 'reflection': True, 'corrAns': 'f', 'block': 2, 'trial_in_block': 9}, {'target': 'T', 'config': 'outline', 'orientation': 180, 'reflection': False, 'corrAns': 't', 'block': 2, 'trial_in_block': 10}, {'target': 'T', 'config': 'inline', 'orientation': 90, 'reflection': False, 'corrAns': 't', 'block': 2, 'trial_in_block': 11}, {'target': 'F', 'config': 'outline', 'orientation': 270, 'reflection': False, 'corrAns': 'f', 'block': 2, 'trial_in_block': 12}, {'target': 'F', 'config': 'outline', 'orientation': 180, 'reflection': True, 'corrAns': 'f', 'block': 2, 'trial_in_block': 13}, {'target': 'F', 'config': 'outline', 'orientation': 180, 'reflection': False, 'corrAns': 'f', 'block': 2, 'trial_in_block': 14}, {'target': 'F', 'config': 'inline', 'orientation': 270, 'reflection': False, 'corrAns': 'f', 'block': 2, 'trial_in_block': 15}, {'target': 'F', 'config': 'outline', 'orientation': 0, 'reflection': True, 'corrAns': 'f', 'block': 2, 'trial_in_block': 16}, {'target': 'F', 'config': 'inline', 'orientation': 180, 'reflection': False, 'corrAns': 'f', 'block': 2, 'trial_in_block': 17}, {'target': 'T', 'config': 'inline', 'orientation': 270, 'reflection': False, 'corrAns': 't', 'block': 2, 'trial_in_block': 18}, {'target': 'T', 'config': 'inline', 'orientation': 0, 'reflection': True, 'corrAns': 't', 'block': 2, 'trial_in_block': 19}, {'target': 'F', 'config': 'outline', 'orientation': 90, 'reflection': True, 'corrAns': 'f', 'block': 2, 'trial_in_block': 20}, {'target': 'F', 'config': 'inline', 'orientation': 90, 'reflection': False, 'corrAns': 'f', 'block': 2, 'trial_in_block': 21}, {'target': 'T', 'config': 'inline', 'orientation': 180, 'reflection': True, 'corrAns': 't', 'block': 2, 'trial_in_block': 22}, {'target': 'F', 'config': 'outline', 'orientation': 270, 'reflection': False, 'corrAns': 'f', 'block': 2, 'trial_in_block': 23}, {'target': 'F', 'config': 'outline', 'orientation': 270, 'reflection': True, 'corrAns': 'f', 'block': 2, 'trial_in_block': 24}, {'target': 'F', 'config': 'inline', 'orientation': 0, 'reflection': True, 'corrAns': 'f', 'block': 2, 'trial_in_block': 25}, {'target': 'T', 'config': 'outline', 'orientation': 0, 'reflection': False, 'corrAns': 't', 'block': 2, 'trial_in_block': 26}, {'target': 'T', 'config': 'inline', 'orientation': 180, 'reflection': False, 'corrAns': 't', 'block': 2, 'trial_in_block': 27}, {'target': 'F', 'config': 'outline', 'orientation': 90, 'reflection': False, 'corrAns': 'f', 'block': 2, 'trial_in_block': 28}, {'target': 'F', 'config': 'inline', 'orientation': 90, 'reflection': True, 'corrAns': 'f', 'block': 2, 'trial_in_block': 29}, {'target': 'F', 'config': 'inline', 'orientation': 270, 'reflection': True, 'corrAns': 'f', 'block': 2, 'trial_in_block': 30}, {'target': 'T', 'config': 'outline', 'orientation': 270, 'reflection': True, 'corrAns': 't', 'block': 2, 'trial_in_block': 31}, {'target': 'T', 'config': 'outline', 'orientation': 90, 'reflection': False, 'corrAns': 't', 'block': 2, 'trial_in_block': 32}, {'target': 'F', 'config': 'outline', 'orientation': 0, 'reflection': True, 'corrAns': 'f', 'block': 2, 'trial_in_block': 33}, {'target': 'F', 'config': 'inline', 'orientation': 0, 'reflection': False, 'corrAns': 'f', 'block': 2, 'trial_in_block': 34}, {'target': 'T', 'config': 'inline', 'orientation': 90, 'reflection': True, 'corrAns': 't', 'block': 2, 'trial_in_block': 35}, {'target': 'F', 'config': 'outline', 'orientation': 270, 'reflection': True, 'corrAns': 'f', 'block': 2, 'trial_in_block': 36}, {'target': 'T', 'config': 'outline', 'orientation': 0, 'reflection': True, 'corrAns': 't', 'block': 2, 'trial_in_block': 37}, {'target': 'T', 'config': 'outline', 'orientation': 180, 'reflection': True, 'corrAns': 't', 'block': 2, 'trial_in_block': 38}, {'target': 'T', 'config': 'outline', 'orientation': 90, 'reflection': True, 'corrAns': 't', 'block': 2, 'trial_in_block': 39}, {'target': 'T', 'config': 'outline', 'orientation': 270, 'reflection': False, 'corrAns': 't', 'block': 2, 'trial_in_block': 40}]" valType="str"/>
+      <Param name="conditionsFile" updates="None" val="block2.xlsx" valType="file"/>
+      <Param name="endPoints" updates="None" val="[0, 1]" valType="code"/>
+      <Param name="isTrials" updates="None" val="True" valType="bool"/>
+      <Param name="loopType" updates="None" val="sequential" valType="str"/>
+      <Param name="nReps" updates="None" val="1" valType="code"/>
+      <Param name="name" updates="None" val="block2" valType="code"/>
+      <Param name="random seed" updates="None" val="" valType="code"/>
+    </LoopInitiator>
+    <Routine name="trial"/>
+    <Routine name="feedback"/>
+    <LoopTerminator name="block2"/>
+    <Routine name="break_1"/>
+    <LoopInitiator loopType="TrialHandler" name="block3">
+      <Param name="Selected rows" updates="None" val="" valType="str"/>
+      <Param name="conditions" updates="None" val="[{'target': 'T', 'config': 'inline', 'orientation': 90, 'reflection': False, 'corrAns': 't', 'block': 3, 'trial_in_block': 1}, {'target': 'F', 'config': 'inline', 'orientation': 90, 'reflection': True, 'corrAns': 'f', 'block': 3, 'trial_in_block': 2}, {'target': 'F', 'config': 'outline', 'orientation': 90, 'reflection': False, 'corrAns': 'f', 'block': 3, 'trial_in_block': 3}, {'target': 'F', 'config': 'outline', 'orientation': 270, 'reflection': True, 'corrAns': 'f', 'block': 3, 'trial_in_block': 4}, {'target': 'T', 'config': 'inline', 'orientation': 270, 'reflection': False, 'corrAns': 't', 'block': 3, 'trial_in_block': 5}, {'target': 'F', 'config': 'outline', 'orientation': 180, 'reflection': False, 'corrAns': 'f', 'block': 3, 'trial_in_block': 6}, {'target': 'T', 'config': 'inline', 'orientation': 0, 'reflection': False, 'corrAns': 't', 'block': 3, 'trial_in_block': 7}, {'target': 'T', 'config': 'outline', 'orientation': 90, 'reflection': True, 'corrAns': 't', 'block': 3, 'trial_in_block': 8}, {'target': 'F', 'config': 'inline', 'orientation': 180, 'reflection': True, 'corrAns': 'f', 'block': 3, 'trial_in_block': 9}, {'target': 'F', 'config': 'inline', 'orientation': 270, 'reflection': True, 'corrAns': 'f', 'block': 3, 'trial_in_block': 10}, {'target': 'F', 'config': 'inline', 'orientation': 0, 'reflection': True, 'corrAns': 'f', 'block': 3, 'trial_in_block': 11}, {'target': 'T', 'config': 'outline', 'orientation': 180, 'reflection': False, 'corrAns': 't', 'block': 3, 'trial_in_block': 12}, {'target': 'T', 'config': 'inline', 'orientation': 0, 'reflection': True, 'corrAns': 't', 'block': 3, 'trial_in_block': 13}, {'target': 'F', 'config': 'outline', 'orientation': 90, 'reflection': True, 'corrAns': 'f', 'block': 3, 'trial_in_block': 14}, {'target': 'F', 'config': 'outline', 'orientation': 0, 'reflection': False, 'corrAns': 'f', 'block': 3, 'trial_in_block': 15}, {'target': 'T', 'config': 'outline', 'orientation': 270, 'reflection': False, 'corrAns': 't', 'block': 3, 'trial_in_block': 16}, {'target': 'T', 'config': 'inline', 'orientation': 180, 'reflection': True, 'corrAns': 't', 'block': 3, 'trial_in_block': 17}, {'target': 'F', 'config': 'inline', 'orientation': 270, 'reflection': False, 'corrAns': 'f', 'block': 3, 'trial_in_block': 18}, {'target': 'F', 'config': 'outline', 'orientation': 270, 'reflection': False, 'corrAns': 'f', 'block': 3, 'trial_in_block': 19}, {'target': 'F', 'config': 'inline', 'orientation': 0, 'reflection': False, 'corrAns': 'f', 'block': 3, 'trial_in_block': 20}, {'target': 'T', 'config': 'inline', 'orientation': 90, 'reflection': True, 'corrAns': 't', 'block': 3, 'trial_in_block': 21}, {'target': 'T', 'config': 'inline', 'orientation': 90, 'reflection': True, 'corrAns': 't', 'block': 3, 'trial_in_block': 22}, {'target': 'T', 'config': 'inline', 'orientation': 180, 'reflection': True, 'corrAns': 't', 'block': 3, 'trial_in_block': 23}, {'target': 'T', 'config': 'inline', 'orientation': 0, 'reflection': True, 'corrAns': 't', 'block': 3, 'trial_in_block': 24}, {'target': 'T', 'config': 'inline', 'orientation': 270, 'reflection': False, 'corrAns': 't', 'block': 3, 'trial_in_block': 25}, {'target': 'T', 'config': 'inline', 'orientation': 270, 'reflection': True, 'corrAns': 't', 'block': 3, 'trial_in_block': 26}, {'target': 'T', 'config': 'inline', 'orientation': 180, 'reflection': False, 'corrAns': 't', 'block': 3, 'trial_in_block': 27}, {'target': 'F', 'config': 'inline', 'orientation': 180, 'reflection': False, 'corrAns': 'f', 'block': 3, 'trial_in_block': 28}, {'target': 'T', 'config': 'outline', 'orientation': 0, 'reflection': False, 'corrAns': 't', 'block': 3, 'trial_in_block': 29}, {'target': 'T', 'config': 'outline', 'orientation': 90, 'reflection': False, 'corrAns': 't', 'block': 3, 'trial_in_block': 30}, {'target': 'T', 'config': 'outline', 'orientation': 270, 'reflection': True, 'corrAns': 't', 'block': 3, 'trial_in_block': 31}, {'target': 'T', 'config': 'outline', 'orientation': 0, 'reflection': True, 'corrAns': 't', 'block': 3, 'trial_in_block': 32}, {'target': 'T', 'config': 'inline', 'orientation': 270, 'reflection': True, 'corrAns': 't', 'block': 3, 'trial_in_block': 33}, {'target': 'T', 'config': 'inline', 'orientation': 180, 'reflection': False, 'corrAns': 't', 'block': 3, 'trial_in_block': 34}, {'target': 'T', 'config': 'outline', 'orientation': 180, 'reflection': True, 'corrAns': 't', 'block': 3, 'trial_in_block': 35}, {'target': 'T', 'config': 'inline', 'orientation': 0, 'reflection': False, 'corrAns': 't', 'block': 3, 'trial_in_block': 36}, {'target': 'F', 'config': 'outline', 'orientation': 0, 'reflection': True, 'corrAns': 'f', 'block': 3, 'trial_in_block': 37}, {'target': 'T', 'config': 'inline', 'orientation': 90, 'reflection': False, 'corrAns': 't', 'block': 3, 'trial_in_block': 38}, {'target': 'F', 'config': 'outline', 'orientation': 180, 'reflection': True, 'corrAns': 'f', 'block': 3, 'trial_in_block': 39}, {'target': 'F', 'config': 'inline', 'orientation': 90, 'reflection': False, 'corrAns': 'f', 'block': 3, 'trial_in_block': 40}]" valType="str"/>
+      <Param name="conditionsFile" updates="None" val="block3.xlsx" valType="file"/>
+      <Param name="endPoints" updates="None" val="[0, 1]" valType="code"/>
+      <Param name="isTrials" updates="None" val="True" valType="bool"/>
+      <Param name="loopType" updates="None" val="sequential" valType="str"/>
+      <Param name="nReps" updates="None" val="1" valType="code"/>
+      <Param name="name" updates="None" val="block3" valType="code"/>
+      <Param name="random seed" updates="None" val="" valType="code"/>
+    </LoopInitiator>
+    <Routine name="trial"/>
+    <Routine name="feedback"/>
+    <LoopTerminator name="block3"/>
+    <Routine name="break_1"/>
+    <LoopInitiator loopType="TrialHandler" name="block4">
+      <Param name="Selected rows" updates="None" val="" valType="str"/>
+      <Param name="conditions" updates="None" val="[{'target': 'F', 'config': 'outline', 'orientation': 180, 'reflection': False, 'corrAns': 'f', 'block': 4, 'trial_in_block': 1}, {'target': 'T', 'config': 'inline', 'orientation': 90, 'reflection': True, 'corrAns': 't', 'block': 4, 'trial_in_block': 2}, {'target': 'F', 'config': 'inline', 'orientation': 180, 'reflection': False, 'corrAns': 'f', 'block': 4, 'trial_in_block': 3}, {'target': 'F', 'config': 'outline', 'orientation': 270, 'reflection': True, 'corrAns': 'f', 'block': 4, 'trial_in_block': 4}, {'target': 'F', 'config': 'outline', 'orientation': 0, 'reflection': True, 'corrAns': 'f', 'block': 4, 'trial_in_block': 5}, {'target': 'T', 'config': 'outline', 'orientation': 90, 'reflection': True, 'corrAns': 't', 'block': 4, 'trial_in_block': 6}, {'target': 'T', 'config': 'outline', 'orientation': 270, 'reflection': False, 'corrAns': 't', 'block': 4, 'trial_in_block': 7}, {'target': 'T', 'config': 'outline', 'orientation': 0, 'reflection': False, 'corrAns': 't', 'block': 4, 'trial_in_block': 8}, {'target': 'T', 'config': 'inline', 'orientation': 180, 'reflection': True, 'corrAns': 't', 'block': 4, 'trial_in_block': 9}, {'target': 'T', 'config': 'outline', 'orientation': 180, 'reflection': True, 'corrAns': 't', 'block': 4, 'trial_in_block': 10}, {'target': 'F', 'config': 'inline', 'orientation': 0, 'reflection': True, 'corrAns': 'f', 'block': 4, 'trial_in_block': 11}, {'target': 'F', 'config': 'inline', 'orientation': 0, 'reflection': False, 'corrAns': 'f', 'block': 4, 'trial_in_block': 12}, {'target': 'T', 'config': 'outline', 'orientation': 90, 'reflection': False, 'corrAns': 't', 'block': 4, 'trial_in_block': 13}, {'target': 'T', 'config': 'outline', 'orientation': 180, 'reflection': False, 'corrAns': 't', 'block': 4, 'trial_in_block': 14}, {'target': 'F', 'config': 'inline', 'orientation': 90, 'reflection': True, 'corrAns': 'f', 'block': 4, 'trial_in_block': 15}, {'target': 'T', 'config': 'outline', 'orientation': 270, 'reflection': True, 'corrAns': 't', 'block': 4, 'trial_in_block': 16}, {'target': 'T', 'config': 'outline', 'orientation': 90, 'reflection': False, 'corrAns': 't', 'block': 4, 'trial_in_block': 17}, {'target': 'F', 'config': 'outline', 'orientation': 90, 'reflection': False, 'corrAns': 'f', 'block': 4, 'trial_in_block': 18}, {'target': 'T', 'config': 'outline', 'orientation': 90, 'reflection': True, 'corrAns': 't', 'block': 4, 'trial_in_block': 19}, {'target': 'F', 'config': 'inline', 'orientation': 270, 'reflection': True, 'corrAns': 'f', 'block': 4, 'trial_in_block': 20}, {'target': 'F', 'config': 'inline', 'orientation': 270, 'reflection': False, 'corrAns': 'f', 'block': 4, 'trial_in_block': 21}, {'target': 'F', 'config': 'outline', 'orientation': 0, 'reflection': False, 'corrAns': 'f', 'block': 4, 'trial_in_block': 22}, {'target': 'T', 'config': 'inline', 'orientation': 180, 'reflection': False, 'corrAns': 't', 'block': 4, 'trial_in_block': 23}, {'target': 'T', 'config': 'outline', 'orientation': 270, 'reflection': False, 'corrAns': 't', 'block': 4, 'trial_in_block': 24}, {'target': 'T', 'config': 'outline', 'orientation': 0, 'reflection': True, 'corrAns': 't', 'block': 4, 'trial_in_block': 25}, {'target': 'T', 'config': 'outline', 'orientation': 180, 'reflection': False, 'corrAns': 't', 'block': 4, 'trial_in_block': 26}, {'target': 'F', 'config': 'outline', 'orientation': 90, 'reflection': True, 'corrAns': 'f', 'block': 4, 'trial_in_block': 27}, {'target': 'T', 'config': 'outline', 'orientation': 270, 'reflection': True, 'corrAns': 't', 'block': 4, 'trial_in_block': 28}, {'target': 'T', 'config': 'outline', 'orientation': 0, 'reflection': True, 'corrAns': 't', 'block': 4, 'trial_in_block': 29}, {'target': 'F', 'config': 'inline', 'orientation': 180, 'reflection': True, 'corrAns': 'f', 'block': 4, 'trial_in_block': 30}, {'target': 'T', 'config': 'inline', 'orientation': 270, 'reflection': False, 'corrAns': 't', 'block': 4, 'trial_in_block': 31}, {'target': 'T', 'config': 'inline', 'orientation': 0, 'reflection': False, 'corrAns': 't', 'block': 4, 'trial_in_block': 32}, {'target': 'T', 'config': 'outline', 'orientation': 180, 'reflection': True, 'corrAns': 't', 'block': 4, 'trial_in_block': 33}, {'target': 'T', 'config': 'inline', 'orientation': 90, 'reflection': False, 'corrAns': 't', 'block': 4, 'trial_in_block': 34}, {'target': 'T', 'config': 'inline', 'orientation': 270, 'reflection': True, 'corrAns': 't', 'block': 4, 'trial_in_block': 35}, {'target': 'F', 'config': 'outline', 'orientation': 270, 'reflection': False, 'corrAns': 'f', 'block': 4, 'trial_in_block': 36}, {'target': 'F', 'config': 'outline', 'orientation': 180, 'reflection': True, 'corrAns': 'f', 'block': 4, 'trial_in_block': 37}, {'target': 'T', 'config': 'inline', 'orientation': 0, 'reflection': True, 'corrAns': 't', 'block': 4, 'trial_in_block': 38}, {'target': 'F', 'config': 'inline', 'orientation': 90, 'reflection': False, 'corrAns': 'f', 'block': 4, 'trial_in_block': 39}, {'target': 'T', 'config': 'outline', 'orientation': 0, 'reflection': False, 'corrAns': 't', 'block': 4, 'trial_in_block': 40}]" valType="str"/>
+      <Param name="conditionsFile" updates="None" val="block4.xlsx" valType="file"/>
+      <Param name="endPoints" updates="None" val="[0, 1]" valType="code"/>
+      <Param name="isTrials" updates="None" val="True" valType="bool"/>
+      <Param name="loopType" updates="None" val="sequential" valType="str"/>
+      <Param name="nReps" updates="None" val="1" valType="code"/>
+      <Param name="name" updates="None" val="block4" valType="code"/>
+      <Param name="random seed" updates="None" val="" valType="code"/>
+    </LoopInitiator>
+    <Routine name="trial"/>
+    <Routine name="feedback"/>
+    <LoopTerminator name="block4"/>
+    <Routine name="end"/>
+  </Flow>
+</PsychoPy2experiment>
